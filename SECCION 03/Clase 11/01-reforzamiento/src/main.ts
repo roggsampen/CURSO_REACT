@@ -1,10 +1,24 @@
-import './style.css'
+import './style.css';
 
 //import './bases/01-const-let';
-import './bases/02-template-string';
+//import './bases/02-template-string';
+//import './bases/03-object-literal';
+//import './bases/03.1-interfaces';
+//import './bases/04-arrays';
+//import './bases/05-funciones';
+//import './bases/05.1-funciones-multiplesRetornos';
+//import './bases/06-obj-destruturing';
+//import './bases/07-array-destructuring';
+//import './bases/07.1-tarea-destructuring';
+import './bases/08-imp-exp';
+
+import { getHeroesByOwner } from './bases/08-imp-exp';
+import { Poder } from './data/heroes.data';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Hola Mundo</h1>
   </div>
 `
+
+console.log(getHeroesByOwner( Poder.rayoLaser ));
