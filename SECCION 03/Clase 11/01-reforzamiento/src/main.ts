@@ -10,10 +10,12 @@ import './style.css';
 //import './bases/06-obj-destruturing';
 //import './bases/07-array-destructuring';
 //import './bases/07.1-tarea-destructuring';
-import './bases/08-imp-exp';
+//import './bases/08-imp-exp';
+// import './bases/09-promesas';
+import './bases/10-fetch-api'
 
-import { getHeroesByOwner } from './bases/08-imp-exp';
-import { Poder } from './data/heroes.data';
+// import { getHeroesByOwner } from './bases/08-imp-exp';
+// import { Poder } from './data/heroes.data';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -21,4 +23,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-console.log(getHeroesByOwner( Poder.rayoLaser ));
+// console.log(getHeroesByOwner( Poder.rayoLaser ));
