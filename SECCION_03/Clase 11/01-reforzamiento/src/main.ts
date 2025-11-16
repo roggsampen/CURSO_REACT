@@ -12,7 +12,8 @@ import './style.css';
 //import './bases/07.1-tarea-destructuring';
 //import './bases/08-imp-exp';
 // import './bases/09-promesas';
-import './bases/10-fetch-api'
+// import './bases/10-fetch-api';
+import './bases/11-async-await'
 
 // import { getHeroesByOwner } from './bases/08-imp-exp';
 // import { Poder } from './data/heroes.data';

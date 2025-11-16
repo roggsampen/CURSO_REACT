@@ -5,6 +5,7 @@ const useState = (namer: string) => {
         (setNamer:string) => {console.log(setNamer)}
     ] as const
 }
+//nota: 'as const' le dice a TypeScript que el arreglo tiene una estructura fija (una tupla), permitiéndole saber que el primer elemento siempre es un string y el segundo siempre es una función, lo cual es crucial para la seguridad
 
 const [name, setName] = useState('Goku');
 console.log(name);

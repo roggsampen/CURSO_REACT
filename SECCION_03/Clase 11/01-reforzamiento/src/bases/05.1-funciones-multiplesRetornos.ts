@@ -17,7 +17,7 @@ console.log(user);
 //SIMPLIFICAR FUNCION DE FLECHA
     // cuando tienen un solo retorno
 const caminar = (name: string): string => `Hola ${name}, estas caminando`;
-
+//3.6
 const mensaje2 = caminar('Vegeta');
 console.log(mensaje2);
 
